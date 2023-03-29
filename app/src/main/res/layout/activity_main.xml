@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="@dimen/_15sdp">
+
+    <Button
+        android:id="@+id/btnRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linear_recyclerview"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp" />
+
+    <Button
+        android:id="@+id/btnGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_7sdp"
+        android:text="@string/gridview"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp" />
+
+    <Button
+        android:id="@+id/btnStaggeredGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/staggeredGridview"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp" />
+</LinearLayout>
